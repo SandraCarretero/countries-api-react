@@ -1,10 +1,21 @@
-import { StyledHeader, StyledHeaderTitle } from './styles';
+import { useContext } from 'react';
+import {
+	StyledButtonTheme,
+	StyledHeader,
+	StyledHeaderTitle
+} from './header.styles';
+import { ThemeContext } from '../../context/ThemeContext';
 
 const Header = () => {
+	const { theme, setTheme } = useContext(ThemeContext);
+
 	return (
-		<StyledHeader>
-			<StyledHeaderTitle>Where in the world?</StyledHeaderTitle>
-			<img src='images/icon-moon.svg' alt='' />
+		<StyledHeader $theme={theme}>
+			<StyledHeaderTitle>Where is the world?</StyledHeaderTitle>
+			<StyledButtonTheme $theme={theme} onClick={() => setTheme(!theme)}>
+				<img src='/images/dark-mode-icon.svg' alt='dark mode' />
+				Dark Mode
+			</StyledButtonTheme>
 		</StyledHeader>
 	);
 };

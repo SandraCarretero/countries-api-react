@@ -1,10 +1,15 @@
 import { Route, Routes } from 'react-router-dom';
-import Home from '../pages/Home';
+import Countries from '../pages/Countries';
+import Layout from '../layouts/Layout';
+import Details from '../pages/Details';
 
 const Router = () => {
 	return (
 		<Routes>
-			<Route path='/' element={<Home />} />
+			<Route path='/' element={<Layout />}>
+				<Route index element={<Countries />} />
+				<Route path='/details' element={<Details />} />
+			</Route>
 		</Routes>
 	);
 };

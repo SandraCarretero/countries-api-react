@@ -1,14 +1,19 @@
-import Header from './components/header/Header';
-import Main from './components/main/Main';
+import { BrowserRouter } from 'react-router-dom';
 import { GlobalStyles } from './styles/GlobalStyles';
+import Router from './router/Router';
+import ThemeProvider from './providers/ThemeProvider';
+import DetailsProvider from './providers/DetailsProvider';
 
 const App = () => {
 	return (
-		<>
-			<GlobalStyles />
-			<Header />
-			<Main />
-		</>
+		<ThemeProvider>
+			<DetailsProvider>
+				<BrowserRouter>
+					<GlobalStyles />
+					<Router />
+				</BrowserRouter>
+			</DetailsProvider>
+		</ThemeProvider>
 	);
 };
 
