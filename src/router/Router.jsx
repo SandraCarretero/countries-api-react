@@ -6,7 +6,7 @@ import Layout from '../layouts/Layout';
 const Router = () => {
 	return (
 		<Routes>
-			<Route path='/' element={Layout}>
+			<Route path='/' element={<Layout/>}>
 				<Route index element={<Countries />} />
 				<Route path='/details' element={<Details />} />
 			</Route>
