@@ -7,12 +7,11 @@
 
 ## Descripción 📑
 
-
-En este proyecto, he creado una aplicación en React donde los usuarios pueden explorar información sobre diferentes planetas. La interfaz presenta un menú con los planetas disponibles, y cada uno ofrece pestañas para ver más detalles.
+En este proyecto, he creado una aplicación en React que muestra las banderas de diferentes países junto con sus nombres. La aplicación incluye un modo claro y oscuro y permite filtrar los países. Los datos se obtienen de una API externa, y react-router-dom facilita la navegación.
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-En este proyecto, he aprendido a usar react-router-dom para la navegación entre planetas y a implementar tabs para mostrar contenido específico de cada uno, como "Overview," "Structure," y "Surface".
+A través de este proyecto, he aprendido a usar react-router-dom para la navegación y a consumir datos de una API para mostrar información dinámica. También he trabajado en la implementación de modos claro y oscuro y en el desarrollo de un filtro por países para mejorar la usabilidad.
 
 ## Tecnologías 🛠
 
