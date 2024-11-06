@@ -30,8 +30,8 @@ A través de este proyecto, he aprendido a usar react-router-dom para la navegac
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
 ![Captura del proyecto](https://github.com/SandraCarretero/countries-api-react/blob/main/public/images/countries.png)
-![Captura del proyecto](https://github.com/SandraCarretero/rock-paper-scissors/blob/main/src/assets/images/countries-pages.png)
-![Captura del proyecto](https://github.com/SandraCarretero/rock-paper-scissors/blob/main/src/assets/images/countries-pages2.png)
+![Captura del proyecto](https://github.com/SandraCarretero/countries-api-react/blob/main/public/images/countries-pages.png)
+![Captura del proyecto](https://github.com/SandraCarretero/countries-api-react/blob/main/public/images/countries-pages2.png)
 
 ## Autor ✒️
 
