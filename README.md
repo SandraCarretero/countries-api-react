@@ -31,7 +31,6 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 ![Captura del proyecto](https://github.com/SandraCarretero/countries-api-react/blob/main/public/images/countries.png)
 ![Captura del proyecto](https://github.com/SandraCarretero/countries-api-react/blob/main/public/images/countries-pages.png)
-![Captura del proyecto](https://github.com/SandraCarretero/countries-api-react/blob/main/public/images/countries-pages2.png)
 
 ## Autor ✒️
 
